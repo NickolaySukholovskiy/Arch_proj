@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/nerme/Documents/Arch_project/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/ARCH_project.dir/Camera.cpp.o -c /Users/nerme/Documents/Arch_project/Camera.cpp",
+  "file": "/Users/nerme/Documents/Arch_project/Camera.cpp",
+  "output": "CMakeFiles/ARCH_project.dir/Camera.cpp.o"
+}
+]
