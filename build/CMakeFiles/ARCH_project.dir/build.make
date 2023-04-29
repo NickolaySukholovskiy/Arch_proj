@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nerme/Documents/Arch_project
+CMAKE_SOURCE_DIR = /Users/nerme/Documents/ARCH/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nerme/Documents/Arch_project/build
+CMAKE_BINARY_DIR = /Users/nerme/Documents/ARCH/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ARCH_project.dir/depend.make
@@ -70,27 +70,59 @@ include CMakeFiles/ARCH_project.dir/progress.make
 include CMakeFiles/ARCH_project.dir/flags.make
 
 CMakeFiles/ARCH_project.dir/Camera.cpp.o: CMakeFiles/ARCH_project.dir/flags.make
-CMakeFiles/ARCH_project.dir/Camera.cpp.o: /Users/nerme/Documents/Arch_project/Camera.cpp
+CMakeFiles/ARCH_project.dir/Camera.cpp.o: /Users/nerme/Documents/ARCH/code/Camera.cpp
 CMakeFiles/ARCH_project.dir/Camera.cpp.o: CMakeFiles/ARCH_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nerme/Documents/Arch_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ARCH_project.dir/Camera.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARCH_project.dir/Camera.cpp.o -MF CMakeFiles/ARCH_project.dir/Camera.cpp.o.d -o CMakeFiles/ARCH_project.dir/Camera.cpp.o -c /Users/nerme/Documents/Arch_project/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nerme/Documents/ARCH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ARCH_project.dir/Camera.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARCH_project.dir/Camera.cpp.o -MF CMakeFiles/ARCH_project.dir/Camera.cpp.o.d -o CMakeFiles/ARCH_project.dir/Camera.cpp.o -c /Users/nerme/Documents/ARCH/code/Camera.cpp
 
 CMakeFiles/ARCH_project.dir/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARCH_project.dir/Camera.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nerme/Documents/Arch_project/Camera.cpp > CMakeFiles/ARCH_project.dir/Camera.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nerme/Documents/ARCH/code/Camera.cpp > CMakeFiles/ARCH_project.dir/Camera.cpp.i
 
 CMakeFiles/ARCH_project.dir/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARCH_project.dir/Camera.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nerme/Documents/Arch_project/Camera.cpp -o CMakeFiles/ARCH_project.dir/Camera.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nerme/Documents/ARCH/code/Camera.cpp -o CMakeFiles/ARCH_project.dir/Camera.cpp.s
+
+CMakeFiles/ARCH_project.dir/main.cpp.o: CMakeFiles/ARCH_project.dir/flags.make
+CMakeFiles/ARCH_project.dir/main.cpp.o: /Users/nerme/Documents/ARCH/code/main.cpp
+CMakeFiles/ARCH_project.dir/main.cpp.o: CMakeFiles/ARCH_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nerme/Documents/ARCH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ARCH_project.dir/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARCH_project.dir/main.cpp.o -MF CMakeFiles/ARCH_project.dir/main.cpp.o.d -o CMakeFiles/ARCH_project.dir/main.cpp.o -c /Users/nerme/Documents/ARCH/code/main.cpp
+
+CMakeFiles/ARCH_project.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARCH_project.dir/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nerme/Documents/ARCH/code/main.cpp > CMakeFiles/ARCH_project.dir/main.cpp.i
+
+CMakeFiles/ARCH_project.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARCH_project.dir/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nerme/Documents/ARCH/code/main.cpp -o CMakeFiles/ARCH_project.dir/main.cpp.s
+
+CMakeFiles/ARCH_project.dir/robotCommands.cpp.o: CMakeFiles/ARCH_project.dir/flags.make
+CMakeFiles/ARCH_project.dir/robotCommands.cpp.o: /Users/nerme/Documents/ARCH/code/robotCommands.cpp
+CMakeFiles/ARCH_project.dir/robotCommands.cpp.o: CMakeFiles/ARCH_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nerme/Documents/ARCH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ARCH_project.dir/robotCommands.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARCH_project.dir/robotCommands.cpp.o -MF CMakeFiles/ARCH_project.dir/robotCommands.cpp.o.d -o CMakeFiles/ARCH_project.dir/robotCommands.cpp.o -c /Users/nerme/Documents/ARCH/code/robotCommands.cpp
+
+CMakeFiles/ARCH_project.dir/robotCommands.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARCH_project.dir/robotCommands.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nerme/Documents/ARCH/code/robotCommands.cpp > CMakeFiles/ARCH_project.dir/robotCommands.cpp.i
+
+CMakeFiles/ARCH_project.dir/robotCommands.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARCH_project.dir/robotCommands.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nerme/Documents/ARCH/code/robotCommands.cpp -o CMakeFiles/ARCH_project.dir/robotCommands.cpp.s
 
 # Object files for target ARCH_project
 ARCH_project_OBJECTS = \
-"CMakeFiles/ARCH_project.dir/Camera.cpp.o"
+"CMakeFiles/ARCH_project.dir/Camera.cpp.o" \
+"CMakeFiles/ARCH_project.dir/main.cpp.o" \
+"CMakeFiles/ARCH_project.dir/robotCommands.cpp.o"
 
 # External object files for target ARCH_project
 ARCH_project_EXTERNAL_OBJECTS =
 
 ARCH_project: CMakeFiles/ARCH_project.dir/Camera.cpp.o
+ARCH_project: CMakeFiles/ARCH_project.dir/main.cpp.o
+ARCH_project: CMakeFiles/ARCH_project.dir/robotCommands.cpp.o
 ARCH_project: CMakeFiles/ARCH_project.dir/build.make
 ARCH_project: /opt/homebrew/lib/libopencv_gapi.4.7.0.dylib
 ARCH_project: /opt/homebrew/lib/libopencv_stitching.4.7.0.dylib
@@ -148,8 +180,9 @@ ARCH_project: /opt/homebrew/lib/libopencv_flann.4.7.0.dylib
 ARCH_project: /opt/homebrew/lib/libopencv_photo.4.7.0.dylib
 ARCH_project: /opt/homebrew/lib/libopencv_imgproc.4.7.0.dylib
 ARCH_project: /opt/homebrew/lib/libopencv_core.4.7.0.dylib
+ARCH_project: /opt/homebrew/Cellar/mosquitto/2.0.15/lib/libmosquitto.dylib
 ARCH_project: CMakeFiles/ARCH_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nerme/Documents/Arch_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ARCH_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nerme/Documents/ARCH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ARCH_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ARCH_project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +194,6 @@ CMakeFiles/ARCH_project.dir/clean:
 .PHONY : CMakeFiles/ARCH_project.dir/clean
 
 CMakeFiles/ARCH_project.dir/depend:
-	cd /Users/nerme/Documents/Arch_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nerme/Documents/Arch_project /Users/nerme/Documents/Arch_project /Users/nerme/Documents/Arch_project/build /Users/nerme/Documents/Arch_project/build /Users/nerme/Documents/Arch_project/build/CMakeFiles/ARCH_project.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/nerme/Documents/ARCH/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nerme/Documents/ARCH/code /Users/nerme/Documents/ARCH/code /Users/nerme/Documents/ARCH/build /Users/nerme/Documents/ARCH/build /Users/nerme/Documents/ARCH/build/CMakeFiles/ARCH_project.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ARCH_project.dir/depend
 

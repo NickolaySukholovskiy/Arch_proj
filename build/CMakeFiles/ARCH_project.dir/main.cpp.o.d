@@ -1,5 +1,6 @@
 CMakeFiles/ARCH_project.dir/main.cpp.o: \
-  /Users/nerme/Documents/Arch_project/main.cpp \
+  /Users/nerme/Documents/ARCH/code/main.cpp \
+  /Users/nerme/Documents/ARCH/code/Camera.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/opencv_modules.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/core.hpp \
@@ -543,4 +544,5 @@ CMakeFiles/ARCH_project.dir/main.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/stitching/detail/blenders.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/video.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/video/tracking.hpp \
-  /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/video/background_segm.hpp
+  /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/video/background_segm.hpp \
+  /Users/nerme/Documents/ARCH/code/robotCommands.hpp

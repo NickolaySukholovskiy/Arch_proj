@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nerme/Documents/Arch_project
+CMAKE_SOURCE_DIR = /Users/nerme/Documents/ARCH/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nerme/Documents/Arch_project/build
+CMAKE_BINARY_DIR = /Users/nerme/Documents/ARCH/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/opt/homebrew/Cellar/cmake/3.26.3/bin/cpack --config ./CPackSourceConfig.cmake /Users/nerme/Documents/Arch_project/build/CPackSourceConfig.cmake
+	/opt/homebrew/Cellar/cmake/3.26.3/bin/cpack --config ./CPackSourceConfig.cmake /Users/nerme/Documents/ARCH/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -117,9 +117,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nerme/Documents/Arch_project/build/CMakeFiles /Users/nerme/Documents/Arch_project/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nerme/Documents/ARCH/build/CMakeFiles /Users/nerme/Documents/ARCH/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nerme/Documents/Arch_project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nerme/Documents/ARCH/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -547,6 +547,54 @@ Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ARCH_project.dir/build.make CMakeFiles/ARCH_project.dir/Camera.cpp.s
 .PHONY : Camera.cpp.s
 
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ARCH_project.dir/build.make CMakeFiles/ARCH_project.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ARCH_project.dir/build.make CMakeFiles/ARCH_project.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ARCH_project.dir/build.make CMakeFiles/ARCH_project.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+robotCommands.o: robotCommands.cpp.o
+.PHONY : robotCommands.o
+
+# target to build an object file
+robotCommands.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ARCH_project.dir/build.make CMakeFiles/ARCH_project.dir/robotCommands.cpp.o
+.PHONY : robotCommands.cpp.o
+
+robotCommands.i: robotCommands.cpp.i
+.PHONY : robotCommands.i
+
+# target to preprocess a source file
+robotCommands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ARCH_project.dir/build.make CMakeFiles/ARCH_project.dir/robotCommands.cpp.i
+.PHONY : robotCommands.cpp.i
+
+robotCommands.s: robotCommands.cpp.s
+.PHONY : robotCommands.s
+
+# target to generate assembly for a file
+robotCommands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ARCH_project.dir/build.make CMakeFiles/ARCH_project.dir/robotCommands.cpp.s
+.PHONY : robotCommands.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -590,6 +638,12 @@ help:
 	@echo "... Camera.o"
 	@echo "... Camera.i"
 	@echo "... Camera.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... robotCommands.o"
+	@echo "... robotCommands.i"
+	@echo "... robotCommands.s"
 .PHONY : help
 
 

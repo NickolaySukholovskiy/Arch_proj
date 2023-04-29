@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4
+CXX_INCLUDES = -isystem /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4 -isystem /opt/homebrew/Cellar/mosquitto/2.0.15/include
 
 CXX_FLAGSarm64 = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
 

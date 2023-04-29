@@ -1,8 +1,20 @@
 [
 {
-  "directory": "/Users/nerme/Documents/Arch_project/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/ARCH_project.dir/Camera.cpp.o -c /Users/nerme/Documents/Arch_project/Camera.cpp",
-  "file": "/Users/nerme/Documents/Arch_project/Camera.cpp",
+  "directory": "/Users/nerme/Documents/ARCH/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4 -isystem /opt/homebrew/Cellar/mosquitto/2.0.15/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/ARCH_project.dir/Camera.cpp.o -c /Users/nerme/Documents/ARCH/code/Camera.cpp",
+  "file": "/Users/nerme/Documents/ARCH/code/Camera.cpp",
   "output": "CMakeFiles/ARCH_project.dir/Camera.cpp.o"
+},
+{
+  "directory": "/Users/nerme/Documents/ARCH/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4 -isystem /opt/homebrew/Cellar/mosquitto/2.0.15/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/ARCH_project.dir/main.cpp.o -c /Users/nerme/Documents/ARCH/code/main.cpp",
+  "file": "/Users/nerme/Documents/ARCH/code/main.cpp",
+  "output": "CMakeFiles/ARCH_project.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/nerme/Documents/ARCH/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4 -isystem /opt/homebrew/Cellar/mosquitto/2.0.15/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/ARCH_project.dir/robotCommands.cpp.o -c /Users/nerme/Documents/ARCH/code/robotCommands.cpp",
+  "file": "/Users/nerme/Documents/ARCH/code/robotCommands.cpp",
+  "output": "CMakeFiles/ARCH_project.dir/robotCommands.cpp.o"
 }
 ]

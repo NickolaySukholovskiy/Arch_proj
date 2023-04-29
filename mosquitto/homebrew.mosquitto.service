@@ -1,0 +1,10 @@
+[Unit]
+Description=Homebrew generated unit for mosquitto
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=simple
+ExecStart=/opt/homebrew/opt/mosquitto/sbin/mosquitto -c /opt/homebrew/etc/mosquitto/mosquitto.conf
+WorkingDirectory=/opt/homebrew/var/mosquitto

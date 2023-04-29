@@ -4,12 +4,18 @@ project(ARCH_project VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-include_directories(${OpenCV_INCLUDE_DIRS})
-find_package(OpenCV REQUIRED)
+set(SOURCE Camera.cpp main.cpp robotCommands.cpp)
 
-add_executable(ARCH_project Camera.cpp)
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(Mosquitto IMPORTED_TARGET libmosquitto REQUIRED)
+
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIR})
+
+add_executable(ARCH_project ${SOURCE})
 
 target_link_libraries(ARCH_project ${OpenCV_LIBS})
+target_link_libraries(${PROJECT_NAME} PkgConfig::Mosquitto)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

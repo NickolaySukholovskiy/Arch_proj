@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/nerme/Documents/Arch_project
-BuildDirectory: /Users/nerme/Documents/Arch_project/build
+SourceDirectory: /Users/nerme/Documents/ARCH/code
+BuildDirectory: /Users/nerme/Documents/ARCH/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake" "/Users/nerme/Documents/Arch_project"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake" "/Users/nerme/Documents/ARCH/code"
 MakeCommand: /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

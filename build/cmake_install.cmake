@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nerme/Documents/Arch_project
+# Install script for directory: /Users/nerme/Documents/ARCH/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/nerme/Documents/Arch_project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/nerme/Documents/ARCH/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

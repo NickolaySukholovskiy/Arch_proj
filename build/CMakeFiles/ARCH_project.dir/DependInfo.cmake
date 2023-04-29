@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/nerme/Documents/Arch_project/Camera.cpp" "CMakeFiles/ARCH_project.dir/Camera.cpp.o" "gcc" "CMakeFiles/ARCH_project.dir/Camera.cpp.o.d"
+  "/Users/nerme/Documents/ARCH/code/Camera.cpp" "CMakeFiles/ARCH_project.dir/Camera.cpp.o" "gcc" "CMakeFiles/ARCH_project.dir/Camera.cpp.o.d"
+  "/Users/nerme/Documents/ARCH/code/main.cpp" "CMakeFiles/ARCH_project.dir/main.cpp.o" "gcc" "CMakeFiles/ARCH_project.dir/main.cpp.o.d"
+  "/Users/nerme/Documents/ARCH/code/robotCommands.cpp" "CMakeFiles/ARCH_project.dir/robotCommands.cpp.o" "gcc" "CMakeFiles/ARCH_project.dir/robotCommands.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

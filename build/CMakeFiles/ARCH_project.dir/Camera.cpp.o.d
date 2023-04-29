@@ -1,6 +1,6 @@
 CMakeFiles/ARCH_project.dir/Camera.cpp.o: \
-  /Users/nerme/Documents/Arch_project/Camera.cpp \
-  /Users/nerme/Documents/Arch_project/Camera.hpp \
+  /Users/nerme/Documents/ARCH/code/Camera.cpp \
+  /Users/nerme/Documents/ARCH/code/Camera.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/opencv_modules.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/core.hpp \
